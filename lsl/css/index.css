@@ -1,0 +1,263 @@
+body,ul,li,h6,p,img{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body{
+	background: #dedede;
+}
+a{
+	text-decoration: none;
+	color: #80AFFE;
+	font-size: 0.26rem;
+	font-family: "微软雅黑";
+}
+p{
+	font-size: 0.22rem;
+	font-family: "微软雅黑";
+	color: #828183;
+	
+}
+img{
+	display: block;
+	border: 0;
+}
+a:hover{
+	color: #828183;
+}
+/*头，banner，导航开始*/
+#box{
+	margin-top: 0.4rem;
+	width: 7.5rem;
+	height: 4.9rem;
+}
+#box .title{
+	height: 0.86rem;
+	width:7.5rem;
+	background:#80affe;
+}
+#box .title .menu{
+	width: 1.08rem;
+	height: 0.86rem;
+	float: left;
+}
+#box .title .menu ul{
+	padding-top: 0.22rem;
+	padding-left: 0.36rem;
+	width: 0.48rem;
+	height: 0.46rem;
+	background: #80AFFE;
+}
+#box .title .menu li{
+	float: left;
+	width: 0.48rem;
+	height: 0.04rem;
+	background: #fff;
+	margin-top: 0.1rem;
+}
+#box .title .serch{
+	width: 0.9rem;
+	height: 0.86rem;
+	float: left;
+}
+#box .title .serch img{
+	display: block;
+	padding-top: 0.24rem;
+	width: 50%;
+}
+#box .title .all{
+	width: 4.34rem;
+	height: 0.86rem;
+	float: left;
+}
+#box .title .all .all_box{
+	width: 3.8rem;
+	height: 0.86rem;
+	text-align: center;
+}
+#box .title .all .all_box h6{
+	font-family: "微软雅黑";
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.86rem;
+}
+#box .title .add{
+	width: 1.18rem;
+	height: 0.86rem;
+	float: left;
+}
+#box .title .add img{
+	display: block;
+	width: 100%;
+}
+#box .banner{
+	width: 7.5rem;
+	height: 3rem;
+	margin-top:0.06rem ;
+	overflow: hidden;
+}
+#box .banner .imgs{
+	width: 16.32rem;
+	height: 4.9rem;
+	margin: 0 auto;
+	
+}
+#box .banner .imgs ul li{
+	float: left;
+	width: 5.37rem;
+	height: 3rem;
+	background: #55def3;
+	margin-left: 0.2rem;
+}
+#box .btnbox{
+	width: 7.5rem;
+	height: 0.96rem;
+	background: #fff;
+	margin-top:0.02rem;
+}
+#box .btnbox ul{
+	width: 7.5rem;
+	height:0.96rem ;
+}
+#box .btnbox ul li{
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.3rem;
+}
+#box .btnbox ul li:nth-child(2){
+	margin-left: 0.88rem;
+}
+#box .btnbox ul li:nth-child(3){
+	margin-left: 0.87rem;
+}
+#box .btnbox ul li:nth-child(4){
+	margin-left: 0.88rem;
+}
+#box .btnbox ul li a{
+	display: block;
+	background: #80AFFE;
+	text-decoration: none;
+	font-size: 0.26rem;
+	color: #fff;
+	padding: 0.04rem;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+/*头，banner，导航结束*/
+/*主体开始*/
+#main{
+	width: 7.1rem;
+	margin: 0 auto;
+	
+}
+#main .main_box{
+	width: 7.1rem;
+	margin: 0 auto;
+	margin-top: 0.16rem;
+	height: 6.8rem;
+    overflow: hidden;
+}
+#main .item{
+	width: 7.1rem;
+	height: 2.74rem;
+	float: left;
+}
+#main .item:nth-child(2){
+	margin-top: 0.16rem;
+}
+#main .item .m_title{
+	width: 7.1rem;
+	height: 0.6rem;
+	background: #fff;
+}
+#main .item .m_title a{
+	display: block;
+	padding-left: 0.16rem;
+	line-height: 0.6rem;
+}
+#main .item .m_content{
+	width: 7.1rem;
+	height: 2.08rem;
+	background: #fff;
+	margin-top: 0.05rem;
+}
+#main .item .m_content .tu{
+	display: block;
+	width:1.8rem;
+	height: 1.8rem;
+	background: #ccc;
+	float: left;
+	margin: 0.16rem;
+}
+#main .item .m_content .con{
+	width: 4.6rem;
+	height: 1.06rem;
+	float: left;
+	margin: 0.16rem;
+	margin-top: 0.08rem;
+}
+#main .item .m_content .con p{
+	line-height: 0.38rem;
+}
+#main .item .m_content .time{
+	width: 1.2rem;
+	height: 0.5rem;
+	float: left;
+	margin: 0.16rem;
+	margin-top: 0.1rem;
+}
+#main .item .m_content .time span{
+	display: block;
+	font-size: 0.18rem;
+	color: #b9b9ba;
+	margin-top: 0.04rem;
+}
+#main .item .m_content .load{
+	width: 3.24rem;
+	height: 0.5rem;
+	float: left;
+	margin-top: 0.2rem;
+}
+#main .item .m_content .load .xiaz{
+	width: 0.5rem;
+	height: 0.5rem;
+	float: right;
+	margin-right: 0.4rem;
+}
+#main .item .m_content .load .xiaz img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#main .item .m_content .load .dianl{
+	width: 0.5rem;
+	height: 0.5rem;
+	float: right;
+	margin-right: 0.2rem;
+}
+#main .item .m_content .load .dianl img{
+	width: 100%;
+}
+/*主体结束*/
+/*footer开始*/
+#font{
+	width: 7.5rem;
+	height: 1rem;
+	background: #fff;
+}
+#font ul{
+	width: 7rem;
+	height: 1rem;
+	margin: 0 auto;
+}
+#font ul li{
+	float: left;
+	width: 1.2rem;
+	height: 1rem;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+}
+#font ul li img{
+	display: block;
+	width: 60%;
+}

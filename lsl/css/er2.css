@@ -1,0 +1,40 @@
+body,ul,li,h6,p,img{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body{
+	background: #dedede;
+}
+a{
+	text-decoration: none;
+	color: #80AFFE;
+	font-size: 0.26rem;
+	font-family: "微软雅黑";
+}
+p{
+	font-size: 0.22rem;
+	font-family: "微软雅黑";
+	color: #828183;
+	
+}
+img{
+	display: block;
+	border: 0;
+}
+a:hover{
+	color: #828183;
+}
+#header .menu ul{
+	padding-top: 0.22rem;
+	padding-left: 0.36rem;
+	width: 0.48rem;
+	height: 0.46rem;
+}
+#header .menu li{
+	float: left;
+	width: 0.48rem;
+	height: 0.04rem;
+	background: #fff;
+	margin-top: 0.1rem;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		function resize(originSize,type){
+			var type=type||"x";
+			if(type=="x"){
+				var widths=document.documentElement.clientWidth;
+				var scale=widths/originSize*100+"px";
+
+			}else if(type=="y"){
+				var heights=document.documentElement.clientHeight;
+				var scale=heights/originSize*100+"px";
+			}
+			document.getElementsByTagName("html")[0].style.fontSize=scale;
+		}
+		window.onload=function(){
+			resize(750,"x");
+		}
+    </script>
+</head>
+<body>
+	<!--头，banner，导航开始-->
+	<div id="box">
+		<div class="title">
+			<div class="menu">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="serch">
+				<img src="img/seech.png"/>
+			</div>
+			<div class="all">
+				<div class="all_box"><h6>全部</h6></div>
+			</div>
+			<div class="add">
+				<img src="img/add.png" alt="" />
+			</div>
+		</div>
+		<div class="banner">
+			<div class="imgs">
+				<ul>
+					<li ><a href=""> <img src="" alt="" /></a></li>					
+					<li><a href=""> <img src="" alt="" /></a></li>					
+					<li><a href=""> <img src="" alt="" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="btnbox">
+			<ul >
+				<li><a href="">听听新闻</a></li>
+				<li><a href="">今日最火</a></li>
+				<li><a href="">经典必听</a></li>
+				<li><a href="">最新资讯</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--头，banner，导航结束-->
+	<!--主体开始-->
+	<div id="main">
+		<div class="main_box">
+			<div class="item">
+				<div class="m_title"><a href="">土耳其炸弹爆炸中至少有11人丧生</a></div>
+				<div class="m_content">
+					<img src="" alt="" class="tu"/>
+					<div class="con">
+						<p>土耳其炸弹爆炸中至少有11人丧生。周二早高
+峰时间伊斯坦科一辆汽车发生爆炸造成11死死
+亡36人受伤。爆炸的目标是一辆警车。7名…</p>
+					</div>
+					<div class="time">
+						<span>2016-06-11 </span>
+						<span>52897次阅读</span>
+					</div>
+					<div class="load">
+						<div class="dianl"><img src="img/dianl.png" alt="" /></div>
+						<div class="xiaz"><img src="img/xiaz.png" alt="" /></div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="m_title"><a href="">世卫组织督促加快对健康危机的响应</a></div>
+				<div class="m_content">
+					<img src="" alt="" class="tu"/>
+					<div class="con">
+						<p>世界卫生大会指示它的卫生机构，要求加快对
+卫生紧急事件的响应速度并提高效率。多年来
+联合国都在对其紧急卫生系统进行改革，包…</p>
+					</div>
+					<div class="time">
+						<span>2016-06-11 </span>
+						<span>52897次阅读</span>
+					</div>
+					<div class="load">
+						<div class="dianl"><img src="img/dianl.png" alt="" /></div>
+						<div class="xiaz"><img src="img/xiaz.png" alt="" /></div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="m_title"><a href="">前911事件搜救犬去世</a></div>
+				<div class="m_content">
+					<img src="" alt="" class="tu"/>
+					<div class="con">
+						<p>世界卫生大会指示它的卫生机构，要求加快对</p>
+					</div>
+					<div class="time">
+						<span>2016-06-11 </span>
+						<span>52897次阅读</span>
+					</div>
+					<div class="load">
+						<div class="dianl"><img src="img/dianl.png" alt="" /></div>
+						<div class="xiaz"><img src="img/xiaz.png" alt="" /></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--主体结束-->
+	<!--footer开始-->
+	<div id="font">
+		<ul>
+			<li><a href=""><img src="img/home.png" alt="" /></a></li>
+			<li><a href=""><img src="img/peop.png" alt="" /></a></li>
+			<li><a href=""><img src="img/telt.png" alt="" /></a></li>
+			<li><a href=""><img src="img/point.png" alt="" /></a></li>
+			<li><a href=""><img src="img/set.png" alt="" /></a></li>
+		</ul>
+	</div>
+</body>
+</html>
