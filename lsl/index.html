@@ -25,6 +25,17 @@
 		}
 		window.onload=function(){
 			resize(750,"x");
+			var caidan=document.getElementById("caidan");
+			var header=document.getElementById("header");
+			var box=document.getElementsByClassName("box")[0];
+			caidan.onclick=function(){
+				box.style.display="block";
+				header.style.display="block";
+			}
+			header.onclick=function(){
+				box.style.display="none";
+				header.style.display="none";
+			}
 		}
     </script>
 </head>
@@ -32,12 +43,37 @@
 	<!--头，banner，导航开始-->
 	<div id="box">
 		<div class="title">
-			<div class="menu">
-				<ul>
+			<div class="menu"style="position: relative;">
+				<ul id="caidan">
 					<li></li>
 					<li></li>
 					<li></li>
 				</ul>
+				<div id="header"style="width: 7.5rem;height: 1.36rem;position: absolute;top: 0;left: 0; background: rgba(0,0,0,0.9);display: none;">
+					<div class="menu">
+						<ul style="background: rgba(0,0,0,0.9);">
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+				<div class="box" style="position: absolute;top: 0.8rem;left: 0; width: 7.5rem;height:12rem;;background: rgba(0,0,0,0.9);display: none;">
+					<ul style="display: block;width: 7.5rem;height:12rem; margin: 0 auto;background: rgba(0,0,0,0.9);">
+						<li style="float: left;width: 7.5rem;height:0.9rem; background:#fff; margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;line-height:0.9rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a> <span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;">美国</span></li>
+						<li style="float: left;width: 7.1rem;height:0.9rem; background: rgba(0,0,0,0.9);margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a><span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;color: #fff;">美国</span></li>
+						<li style="float: left;width: 7.1rem;height:0.9rem; background: rgba(0,0,0,0.9);margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a><span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;color: #fff;">美国</span></li>
+						<li style="float: left;width: 7.1rem;height:0.9rem; background: rgba(0,0,0,0.9);margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a><span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;color: #fff;">美国</span></li>
+						<li style="float: left;width: 7.1rem;height:0.9rem; background: rgba(0,0,0,0.9);margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a><span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;color: #fff;">美国</span></li>
+						<li style="float: left;width: 7.1rem;height:0.9rem; background: rgba(0,0,0,0.9);margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a><span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;color: #fff;">美国</span></li>
+						<li style="float: left;width: 7.1rem;height:0.9rem; background: rgba(0,0,0,0.9);margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a><span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;color: #fff;">美国</span></li>
+						<li style="float: left;width: 7.1rem;height:0.9rem; background: rgba(0,0,0,0.9);margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a><span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;color: #fff;">美国</span></li>
+						<li style="float: left;width: 7.1rem;height:0.9rem; background: rgba(0,0,0,0.9);margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a><span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;color: #fff;">美国</span></li>
+						<li style="float: left;width: 7.1rem;height:0.9rem; background: rgba(0,0,0,0.9);margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a><span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;color: #fff;">美国</span></li>
+						<li style="float: left;width: 7.1rem;height:0.9rem; background: rgba(0,0,0,0.9);margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a><span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;color: #fff;">美国</span></li>
+						<li style="float: left;width: 7.1rem;height:0.9rem; background: rgba(0,0,0,0.9);margin: 0 auto;"><a href="" style="display: block;width: 0.36rem;height: 0.36rem;background: lime;float: left;margin-left: 0.2rem;margin-top: 0.25rem;"></a><span style="font-size: 0.36rem;display: block;float: left;margin-left: 0.1rem;line-height:0.9rem;color: #fff;">美国</span></li>
+					</ul>
+				</div>
 			</div>
 			<div class="serch">
 				<img src="img/seech.png"/>
@@ -76,9 +112,9 @@
 				<div class="m_content">
 					<img src="" alt="" class="tu"/>
 					<div class="con">
-						<p>土耳其炸弹爆炸中至少有11人丧生。周二早高
+						<a href="reji.html"><p>土耳其炸弹爆炸中至少有11人丧生。周二早高
 峰时间伊斯坦科一辆汽车发生爆炸造成11死死
-亡36人受伤。爆炸的目标是一辆警车。7名…</p>
+亡36人受伤。爆炸的目标是一辆警车。7名…</p></a>
 					</div>
 					<div class="time">
 						<span>2016-06-11 </span>
